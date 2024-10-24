@@ -10,7 +10,8 @@ let db=mysql.createConnection({
   host:'localhost',
   user:"root",
   database:"forum_db",
-  password:""
+  password:"",
+  port: 3306
 })
 
 app.post("/add",(req,res)=>{ 
